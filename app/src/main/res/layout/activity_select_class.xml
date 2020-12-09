@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SelectClassActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="@string/select_class_txt"
+        android:textColor="@color/colorPrimary"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/grade1"
+        android:layout_width="358dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_style"
+        android:gravity="center"
+        android:onClick="selected_classbtn"
+        android:text="@string/class_1"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/grade2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_style"
+        android:onClick="selected_classbtn"
+        android:text="@string/class_2"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/grade3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_style"
+        android:onClick="selected_classbtn"
+        android:text="@string/class_3"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/grade4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_style"
+        android:onClick="selected_classbtn"
+        android:text="@string/class_4"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/grade5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_style"
+        android:onClick="selected_classbtn"
+        android:text="@string/class_5"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>

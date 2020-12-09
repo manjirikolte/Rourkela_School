@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RSS, Rourkela</string>
+    <string name="Rourkela_school_name">Vivekananda Shiksha Sadan, Rourkela</string>
+    <string name="continue_btn_txt">Click to Continue</string>
+    <string name="select_class_txt">Select Class</string>
+    <string name="class_1">Class 1</string>
+    <string name="class_2">Class 2</string>
+    <string name="class_3">Class 3</string>
+    <string name="class_4">Class 4</string>
+    <string name="class_5">Class 5</string>
+
+    <string name="rourkela_address">Vivekananda Shiksha Sadan, Rourkela
+                                    Sector 2, Rourkela, Odisha 769008</string>
+    <string name="rourkela_mobnumber">+91 987654321</string>
+</resources>
